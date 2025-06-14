@@ -1,5 +1,6 @@
 <?php
     $page_title = "Roger Hyam: Analogues";
+    $featured_image = "https://www.hyam.net/style/parallax1.jpg";
     require_once('header.php');
 ?>
 
@@ -15,7 +16,7 @@
     <h3 class="w3-center">ABOUT</h3>
     <div class="w3-row-padding">
         <div class="w3-quarter w3-center">
-            <p>
+            <p style="margin-top: 20px;">
                 <img src="style/portrait.jpg" class="w3-round w3-image w3-grayscale-max" alt="Photo of Me" width="400"
                     height="333">
             </p>
@@ -171,11 +172,9 @@
         <p>
             This text is the third of <a href="https://plumvillage.org/key-practice-texts/the-five-earth-touchings">Five
                 Earth Touchings</a>
-            used in Scotland by the <a href="https://plumvillage.org/">Plumb Village</a> Zen tradition.
-
+            used in Scotland by the <a href="https://plumvillage.org/">Plum Village</a> Zen tradition.
             Earth Touching is the spiritual practice of contemplating what has been transmitted to us by
-            our ancestors. The text was written by Lindsay Lumsden, Margo Henderson and Hugh Green
-            for the North of Scotland Sanghas.
+            our ancestors.
         </p>
     </div>
 </div>

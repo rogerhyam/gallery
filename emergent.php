@@ -2,8 +2,6 @@
     
     $page_title = "Roger Hyam: Strathglass";
 
-    require_once('header.php');
-
     // define some photos of the gallery
 
     $display_title = "Emergent";
@@ -12,21 +10,22 @@
     $photos = array(
         (object)array(
             'file' => 'projects/emergent/pentlands-1.jpg',
-            'title' => "Big fat tree",
+            'title' => "Rewilding, Pentlands, March 2025",
             'info' => null
         ),
         (object)array(
             'file' => 'projects/emergent/antonine-1.jpg',
-            'title' => "Big fat tree",
+            'title' => "Virago, Bowness, February 2025 ",
             'info' => null
         ),
         (object)array(
             'file' => 'projects/emergent/antonine-2.jpg',
-            'title' => "Big fat tree",
+            'title' => "Antonine Wall, February 2025",
             'info' => null
         )
     );
 
+    require_once('header.php');
     require_once('gallery_template.php');
     require_once('footer.php');
 ?>
